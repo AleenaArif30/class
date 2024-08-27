@@ -1,0 +1,12 @@
+// console.log(document.childNodes[1].childNodes[2].childNodes[1].childNodes[1].nodeName)
+// console.log(document.childNodes[1].childNodes[2].childNodes[1].childNodes)
+// console.log(document.childNodes[1].childNodes[2].childNodes[1].childNodes[1].nodeType)
+// document.getElementById("div")
+
+var main = document.getElementById("div")
+console.log(main.hasAttribute("id"))
+console.log(main.getAttribute("id"))
+console.log(main.setAttribute("class","con"))
+console.log(main.hasAttribute("class"))
+console.log(main.getAttribute("class"))
+console.log(main.childNodes[1].childNodes[0].nodeValue)
